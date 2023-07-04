@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Calculator.vcxproj", "{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculatorTest", "CalculatorTest\CalculatorTest.vcxproj", "{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{488B29F3-E915-4672-9906-63F9AF6D7630}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Debug|x64.ActiveCfg = Debug|x64
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Debug|x64.Build.0 = Debug|x64
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Debug|x86.Build.0 = Debug|Win32
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Release|x64.ActiveCfg = Release|x64
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Release|x64.Build.0 = Release|x64
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Release|x86.ActiveCfg = Release|Win32
+		{A6FDF572-E4AE-45D3-B5D9-DF92B11159F5}.Release|x86.Build.0 = Release|Win32
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Debug|x64.ActiveCfg = Debug|x64
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Debug|x64.Build.0 = Debug|x64
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Debug|x86.ActiveCfg = Debug|Win32
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Debug|x86.Build.0 = Debug|Win32
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Release|x64.ActiveCfg = Release|x64
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Release|x64.Build.0 = Release|x64
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Release|x86.ActiveCfg = Release|Win32
+		{645BE4B5-EE5B-4963-9A32-FD1F5C080E08}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0A0AD9F-5A72-4391-85A3-0E3C46431184}
+	EndGlobalSection
+EndGlobal
