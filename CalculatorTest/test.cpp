@@ -48,3 +48,11 @@ TEST(CalculatorTest, getSumSum) {
 	auto sum = calculator.getSumSum(a, b, c);
 	EXPECT_EQ(sum, a + b + c);
 }
+
+TEST(CalculatorTest, getDevide2) {
+	Calculator calculator{};
+	int a = 100;
+	int b = 0;
+	auto devide = calculator.getDivide(a, b);
+	EXPECT_EQ(devide, a / b);
+}
