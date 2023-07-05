@@ -36,7 +36,7 @@ TEST(CalculatorTest, getDevide) {
 	Calculator calculator{};
 	int a = 100;
 	int b = 5;
-	auto devide = calculator.getDevide(a, b);
+	auto devide = calculator.getDivide(a, b);
 	EXPECT_EQ(devide, a / b);
 }
 
